@@ -3,34 +3,8 @@
 <head>
 <title>WEB1 - CSS</title>
 <meta charset="utf-8">
-<style>
-    body{
-        margin: 0;
-    }
-    #active{
-        color: red;
-    }
-    .saw {
-        color: gray;
-    }
-    a{
-    color:black;
-    text-decoration: none;
-    }
-    h1 {
-        font-size: 55px;
-        text-align: center;
-        border-bottom:1px solid gray;
-        margin: 0px;
-        padding: 20px;
-    }
-    ol {
-        border-right: 1px solid gray;
-        width: 100px;
-        margin: 0;
-        padding: 20px;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 
@@ -38,9 +12,10 @@
 
 <body>
 <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
 <ol>
-    <li><a href="1.html" class="saw">HTML</a></li>
-    <li><a href="2.html" class="saw" id="active">CSS</a></li>
+    <li><a href="1.html" >HTML</a></li>
+    <li><a href="2.html" >CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
 </ol>
 <!--
@@ -51,8 +26,9 @@
     <li><a href="3.html"><font color="red">JavaScript</font></a></li>
 </ol>
 -->
-<h2>CSS</h2>
-<p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+    <div id="article">
+    <h2>CSS</h2>
+    <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
     Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
     
@@ -61,8 +37,9 @@
     The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
     
     In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-    <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <U>web</U> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<img src="coding.jpg" width="100%"></p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.HTML elements are delineated by tags, written using angle brackets.</p>
+    </div>
+</div>
+
     <p><!-- 라이브리 시티 설치 코드 -->
         <div id="lv-container" data-id="city" data-uid="MTAyMC81MzQ0Mi8yOTkxNg==">
             <script type="text/javascript">
